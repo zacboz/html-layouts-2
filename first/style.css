@@ -1,12 +1,13 @@
 header {
   height: 15vh;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .top {
   height: 100%;
-  width: 32%;
-  float: left;
+  width: 30%;
 
 }
 
@@ -16,7 +17,7 @@ header {
 
 .box-two {
   background-color: #4a90e2;
-  margin: 0 2%;
+  width: 20%;
 }
 
 .box-three{
@@ -29,7 +30,6 @@ header {
 }
 
 .message {
-  clear: left;
   height: 90%;
   width: 100%;
   margin: 5% 0;
